@@ -5,13 +5,7 @@ public class ChpChallenge {
 
        // import of random class
         Random numGen = new Random();
-        int random_low;
-        int random_high;
-        int qtyRate = 0;
-        int whichIndexingIngredients;
-        double basePriceForBurritos;
-        random_low = 5;
-        random_high = 10;
+      
 
 
         // declaring the arraylist
@@ -91,6 +85,13 @@ public class ChpChallenge {
 
 
        for (int numberBurrito =0; numberBurrito < 25; numberBurrito++){
+        int random_low;
+        int random_high;
+        int qtyRate = 0;
+        int whichIndexingIngredients;
+        double basePriceForBurritos;
+        random_low = 5;
+        random_high = 10;
 
            ArrayList<String> cashierBurrito = new ArrayList<>();
            ArrayList<Integer> burritoParts = new ArrayList<>();
